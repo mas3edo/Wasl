@@ -26,7 +26,7 @@ export default function Reveal({
 
   return (
     <motion.div
-      className="max-md:!transform-none"
+      className="reveal-wrapper"
       initial={{ opacity: 0, ...start }}
       whileInView={{ opacity: 1, x: 0, y: 0 }}
       viewport={{ once, amount }}

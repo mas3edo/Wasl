@@ -46,4 +46,10 @@ a[data-btn="true"]:hover {
   body {
     background-attachment: scroll;
   }
+  
+  /* Disable Reveal animations entirely on mobile */
+  .reveal-wrapper {
+    opacity: 1 !important;
+    transform: none !important;
+  }
 }
