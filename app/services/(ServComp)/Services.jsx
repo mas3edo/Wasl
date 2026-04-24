@@ -85,14 +85,14 @@ const servicesData = [
 
 function ServiceCard({ title, subtitle, description, icon: Icon, iconBg, bullets }) {
 	return (
-		<article className="group relative flex h-full flex-col rounded-[2rem] border border-white/5 bg-[#121624] p-8 transition-all duration-500 hover:-translate-y-2 hover:border-white/10 hover:bg-[#161a2b] hover:shadow-[0_20px_40px_rgba(3,8,28,0.45)] md:p-10">
-			<div className="mb-8 flex items-center gap-5">
-				<div className={`flex h-[72px] w-[72px] shrink-0 items-center justify-center rounded-[20px] ${iconBg} shadow-lg transition-transform duration-500 group-hover:scale-105 group-hover:rotate-3`}>
-					<Icon className="h-8 w-8 text-white" strokeWidth={2.2} />
+		<article className="group relative flex h-full flex-col rounded-[2rem] border border-white/5 bg-[#121624] p-6 transition-all duration-500 hover:-translate-y-2 hover:border-white/10 hover:bg-[#161a2b] hover:shadow-[0_20px_40px_rgba(3,8,28,0.45)] md:p-10">
+			<div className="mb-6 flex items-center gap-4 md:mb-8 md:gap-5">
+				<div className={`flex h-16 w-16 md:h-[72px] md:w-[72px] shrink-0 items-center justify-center rounded-[18px] md:rounded-[20px] ${iconBg} shadow-lg transition-transform duration-500 group-hover:scale-105 group-hover:rotate-3`}>
+					<Icon className="h-7 w-7 text-white md:h-8 md:w-8" strokeWidth={2.2} />
 				</div>
 				<div className="text-right flex-1">
-					<h3 className="text-2xl font-black text-white md:text-[28px]">{title}</h3>
-					<p className="mt-1.5 text-sm font-semibold text-white/50">{subtitle}</p>
+					<h3 className="text-[22px] leading-tight font-black text-white md:text-[28px]">{title}</h3>
+					<p className="mt-1 text-sm font-semibold text-white/50">{subtitle}</p>
 				</div>
 			</div>
 			<p className="mb-10 text-right text-[17px] leading-relaxed text-white/75 md:text-[18px]">
@@ -112,7 +112,7 @@ function ServiceCard({ title, subtitle, description, icon: Icon, iconBg, bullets
 
 export default function Services() {
 	return (
-		<section className="w-full pb-20 md:pb-24">
+		<section className="w-full pb-20 md:pb-24" dir="rtl">
 			<div className="mx-auto w-full max-w-7xl px-5 md:px-8 lg:px-12">
 				<div className="grid grid-cols-1 gap-7 lg:grid-cols-2">
 					{servicesData.map((service, index) => (

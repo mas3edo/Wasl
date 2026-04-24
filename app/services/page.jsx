@@ -4,8 +4,8 @@ import Work from "./(ServComp)/Work";
 import Ready from "./(ServComp)/Ready";
 
 export const metadata = {
-  title: 'خدماتنا | وصل',
-  description: 'حلول تسويق رقمي شاملة مصممة خصيصاً لتلبية احتياجات السوق الكويتي والخليجي',
+    title: 'خدماتنا | وصل',
+    description: 'حلول تسويق رقمي شاملة مصممة خصيصاً لتلبية احتياجات السوق الكويتي والخليجي',
 };
 
 export default function ServicesPage() {
@@ -20,7 +20,7 @@ export default function ServicesPage() {
                     </Reveal>
 
                     <Reveal from="up" delay={0.1}>
-                        <h1 className="mb-6 text-5xl font-black leading-tight text-white md:text-7xl md:leading-[1.1]">
+                        <h1 className="mb-6 text-[40px] sm:text-5xl font-black leading-tight text-white md:text-7xl md:leading-[1.1]">
                             خدماتنا <span className="text-[#a9001f]">الاحترافية</span>
                         </h1>
                     </Reveal>
