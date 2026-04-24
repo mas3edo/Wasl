@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 180" fill="none" stroke="#8B0016" stroke-width="1.5" stroke-linejoin="miter">
+  <g transform="translate(70 70)">
+    <rect x="-14" y="-14" width="8" height="8" />
+    <rect x="-4" y="-14" width="8" height="8" />
+    <rect x="6" y="-14" width="8" height="8" />
+    <rect x="-14" y="-4" width="8" height="8" />
+    <rect x="6" y="-4" width="8" height="8" />
+    <rect x="-14" y="6" width="8" height="8" />
+    <rect x="-4" y="6" width="8" height="8" />
+    <rect x="6" y="6" width="8" height="8" />
+
+    <rect x="-24" y="-24" width="8" height="8" />
+    <rect x="16" y="-24" width="8" height="8" />
+    <rect x="-24" y="16" width="8" height="8" />
+    <rect x="16" y="16" width="8" height="8" />
+
+    <rect x="-4" y="-34" width="8" height="8" />
+    <rect x="-14" y="-44" width="8" height="8" />
+    <rect x="-4" y="-44" width="8" height="8" />
+    <rect x="6" y="-44" width="8" height="8" />
+    <rect x="-4" y="-54" width="8" height="8" />
+
+    <rect x="-4" y="26" width="8" height="8" />
+    <rect x="-14" y="36" width="8" height="8" />
+    <rect x="-4" y="36" width="8" height="8" />
+    <rect x="6" y="36" width="8" height="8" />
+    <rect x="-4" y="46" width="8" height="8" />
+
+    <rect x="26" y="-4" width="8" height="8" />
+    <rect x="36" y="-14" width="8" height="8" />
+    <rect x="36" y="-4" width="8" height="8" />
+    <rect x="36" y="6" width="8" height="8" />
+    <rect x="46" y="-4" width="8" height="8" />
+
+    <rect x="-34" y="-4" width="8" height="8" />
+    <rect x="-44" y="-14" width="8" height="8" />
+    <rect x="-44" y="-4" width="8" height="8" />
+    <rect x="-44" y="6" width="8" height="8" />
+    <rect x="-54" y="-4" width="8" height="8" />
+  </g>
+  <text x="70" y="160" font-family="Cairo, Tajawal, sans-serif" font-size="48" font-weight="800" text-anchor="middle" fill="#8B0016" stroke="none" style="letter-spacing:-1px">وصل</text>
+</svg>

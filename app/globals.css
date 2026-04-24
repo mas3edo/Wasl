@@ -1,26 +1,49 @@
-@import "tailwindcss";
+@import './style/index.css';
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-sans: "Cairo", "Tajawal", "ui-sans-serif", "system-ui", "sans-serif";
+  --bg-main: #060a1f;
+  --bg-red-glow: #8b0016;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  min-height: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  background:
+    radial-gradient(56% 64% at 78% 26%, color-mix(in oklab, var(--bg-red-glow) 32%, transparent) 0%, transparent 62%),
+    linear-gradient(180deg, var(--bg-main) 0%, var(--bg-main) 100%);
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
+button,
+a[data-btn="true"] {
+  transition: transform 220ms ease, filter 220ms ease, box-shadow 220ms ease;
+}
+
+button:hover,
+a[data-btn="true"]:hover {
+  transform: scale(1.02);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  button,
+  a[data-btn="true"] {
+    transition: none;
+  }
+
+  button:hover,
+  a[data-btn="true"]:hover {
+    transform: none;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
 }
