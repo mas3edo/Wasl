@@ -3,8 +3,8 @@ import Years from "./years";
 import Vision from "./Vision";
 
 export const metadata = {
-  title: 'من نحن | وصل',
-  description: 'نحن نؤمن بقوة الاتصال الحقيقي بين العلامات التجارية وجمهورها',
+
+    description: 'نحن نؤمن بقوة الاتصال الحقيقي بين العلامات التجارية وجمهورها',
 };
 
 export default function AboutPage() {
@@ -33,7 +33,7 @@ export default function AboutPage() {
             </section>
             <Years />
             <Vision />
-            
+
         </main>
     );
 }

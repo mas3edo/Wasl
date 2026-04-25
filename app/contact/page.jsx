@@ -3,7 +3,6 @@ import Cont from "./Cont";
 import Messages from "./messages";
 
 export const metadata = {
-    title: 'تواصل معنا | وصل',
     description: 'نحن هنا للإجابة على أسئلتك ومناقشة كيف يمكننا مساعدتك في تحقيق أهدافك التسويقية',
 };
 

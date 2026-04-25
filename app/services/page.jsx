@@ -4,7 +4,7 @@ import Work from "./(ServComp)/Work";
 import Ready from "./(ServComp)/Ready";
 
 export const metadata = {
-    title: 'خدماتنا | وصل',
+
     description: 'حلول تسويق رقمي شاملة مصممة خصيصاً لتلبية احتياجات السوق الكويتي والخليجي',
 };
 
